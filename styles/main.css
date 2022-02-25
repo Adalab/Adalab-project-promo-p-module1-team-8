@@ -19,3 +19,24 @@
   background-color: #14d9c4;
   height: 45px;
 }
+
+/*A partir de aquí empieza el footer que es lo último */
+
+.container-footer {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.links-left {
+  padding: 15px;
+}
+
+.links-right {
+  padding: 15px;
+}
