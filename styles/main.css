@@ -1,25 +1,58 @@
 * {
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans";
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  /* border: solid 1px; */
+}
+:root {
+  font-family: "Open Sans";
 }
 .header {
-  background-color: #099d8d;
   color: #ffffff;
   position: sticky;
   top: 0;
   width: 100%;
 }
 .header-title {
-  font-size: 15px;
+  background-color: #099d8d;
+  font-family: var(--font-family1);
+  color: #fff;
+  font-size: 16px;
   height: 60px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .header-menu {
   background-color: #14d9c4;
+  font-family: var(--font-family1);
+  color: #fff;
+  font-size: 15px;
   height: 45px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.header-link {
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 /* A partir de aquí va el main */
 
 .main-padding {
@@ -31,13 +64,16 @@
   background-color: rgb(243, 243, 243);
 }
 
-h2 {
+.h2 {
   color: #14d9c4;
   font-weight: bold;
+  font-size: 24px;
+  font-family: "Rubik";
 }
 
 .main-padding-texto {
   padding: 20px;
+  font-size: 16px;
 }
 
 .main-padding-texto-2 {
@@ -46,6 +82,7 @@ h2 {
 
 .main-padding-texto-top {
   padding-top: 40px;
+  font-family: "Rubik";
 }
 
 .main-padding-texto-bottom {
