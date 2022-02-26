@@ -20,6 +20,62 @@
   height: 45px;
 }
 
+/* A partir de aquí va el main */
+
+.main-padding {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-aside-background-fortalezas-debilidades {
+  background-color: rgb(243, 243, 243);
+}
+
+h2 {
+  color: #14d9c4;
+  font-weight: bold;
+}
+
+.main-padding-texto {
+  padding: 20px;
+}
+
+.main-padding-texto-2 {
+  padding: 10px;
+}
+
+.main-padding-texto-top {
+  padding-top: 40px;
+}
+
+.main-padding-texto-bottom {
+  padding-bottom: 40px;
+}
+
+.avatar-lorena {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.avatar-aran {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.avatar-paula {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.avatar-celia {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 /*A partir de aquí empieza el footer que es lo último */
 
 .container-footer {
