@@ -113,13 +113,14 @@
   padding-bottom: 20px;
 }
 
-/*A partir de aquí empieza el footer que es lo último */
+/*A partir de aquí empieza el footer*/
 
 .container-footer {
   border-top: 1px solid black;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  padding: 0 15px;
 }
 
 .list {
