@@ -73,7 +73,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: start;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
 }
 
 .main-cuadrado-pico {
@@ -95,20 +97,41 @@
   background-color: rgb(243, 243, 243);
 }
 
-.h2 {
+.h2-equipo {
   color: #14d9c4;
-  font-weight: bold;
   font-size: 24px;
+  font-weight: 500;
   font-family: "Rubik";
+  text-align: center;
+  padding-top: 20px;
 }
 
-.main-padding-texto {
-  padding: 20px;
+.h2-fortalezas-debilidades {
+  color: #099d8d;
+  font-size: 22px;
+  line-height: 45px;
+  font-family: "Rubik";
+  font-weight: 500;
+}
+
+.main-h3 {
+  font-size: 20px;
+}
+
+.main-texto {
+  color: #54585a;
   font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px;
 }
 
-.main-padding-texto-2 {
+.main-padding-texto-10-px {
   padding: 10px;
+}
+
+.main-padding-texto-rombo {
+  padding-top: 20px;
 }
 
 .main-padding-texto-top {
@@ -118,6 +141,16 @@
 
 .main-padding-texto-bottom {
   padding-bottom: 40px;
+}
+
+.main-padding-texto-5-px {
+  padding-top: 5px;
+}
+
+.main-h2-quienes-somos {
+  color: #099d8d;
+  font-size: 24px;
+  font-weight: 500px;
 }
 
 .avatar-lorena {
