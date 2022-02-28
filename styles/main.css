@@ -194,12 +194,14 @@
 
 .team {
   margin: 30px 15px 45px 20px;
+  color: #b8b8b9;
 }
 
 .list {
   list-style: none;
   margin: -24px 20px 20px 12px;
   text-align: center;
+  color: #54585a;
 }
 
 .logo {
