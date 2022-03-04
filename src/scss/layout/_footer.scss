@@ -1,8 +1,23 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.container-footer {
+  list-style: none;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.team {
+  margin: 30px 15px 45px 20px;
+}
+
+.list {
+  list-style: none;
+  margin: -24px 20px 20px 12px;
+  text-align: center;
+}
+
+.logo {
+  margin: 3px 40px;
 }

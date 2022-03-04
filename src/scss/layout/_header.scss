@@ -1,5 +1,46 @@
-.page__header {
+.header {
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header-title {
+  background-color: #099d8d;
+  font-family: var(--font-family1);
+  color: #fff;
+  font-size: 16px;
+  height: 60px;
+  width: 100vw;
+  text-align: center;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-menu {
+  background-color: #14d9c4;
+  font-family: var(--font-family1);
+  color: #fff;
+  font-size: 15px;
+  height: 45px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
