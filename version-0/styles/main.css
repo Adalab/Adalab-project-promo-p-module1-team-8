@@ -187,21 +187,57 @@
   border-top: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
 .team {
   margin: 30px 15px 45px 20px;
+  color: #b8b8b9;
 }
 
 .list {
   list-style: none;
   margin: -24px 20px 20px 12px;
+  color: #54585a;
   text-align: center;
 }
 
 .logo {
-  margin: 3px 40px;
+  width: 115.9px;
+  height: 45px;
+}
+
+@media all and (min-width: 768px) {
+  .container-footer {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .team {
+    display: flex;
+    width: 172px;
+    height: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .list {
+    padding: 24px 45px 56px;
+    margin: 0;
+  }
+
+  .logo {
+    width: 115.9px;
+    height: 45px;
+    margin: -36px 40px;
+  }
 }
