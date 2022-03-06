@@ -29,3 +29,76 @@
 /*A partir de aquí empieza el footer*/
 
 @import "layout/footer";
+
+.container-footer {
+  list-style: none;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.team {
+  margin: 30px 15px 45px 20px;
+  color: #b8b8b9;
+}
+
+.list {
+  list-style: none;
+  margin: -24px 20px 0 12px;
+  color: #54585a;
+  text-align: center;
+}
+
+.logo {
+  width: 115.9px;
+  height: 45px;
+  padding: 30px 0 45px 0;
+}
+
+@media all and (min-width: 768px) {
+  .container-footer {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+
+  .container-top {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .team {
+    height: 20px;
+    margin: 30px 0 15px 45px;
+  }
+
+  .list {
+    height: 90px;
+    margin: 24px 45px 56px 0;
+    text-align: right;
+  }
+
+  .logo {
+    width: 115.9px;
+    height: 45px;
+    margin-top: -124px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container-footer {
+    height: 161px;
+  }
+
+  .container-top {
+    margin-right: 138px;
+  }
+}
