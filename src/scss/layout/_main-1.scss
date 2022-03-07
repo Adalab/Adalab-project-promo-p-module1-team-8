@@ -11,6 +11,16 @@
   padding: 8px;
 }
 
+.main-contenedor-equipo {
+  @media all and (min-width: 1000px) {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .main-frase-equipo {
   display: flex;
   justify-content: center;
@@ -33,10 +43,16 @@
 .main-padding {
   padding: 20px;
   text-align: center;
+  @media all and (min-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .main-aside-background-fortalezas-debilidades {
-  background-color: rgb(243, 243, 243);
+  background-color: #b8b8b9;
 }
 
 .h2-equipo {
@@ -51,13 +67,8 @@
 .h2-fortalezas-debilidades {
   color: #099d8d;
   font-size: 22px;
-  line-height: 45px;
   font-family: "Rubik";
   font-weight: 500;
-}
-
-.main-h3 {
-  font-size: 20px;
 }
 
 .main-texto {
@@ -66,58 +77,24 @@
   line-height: 24px;
   text-align: center;
   padding: 20px;
-}
-
-.main-padding-texto-10-px {
-  padding: 10px;
+  @media all and (min-width: 1000px) {
+    width: 439px;
+  }
 }
 
 .main-padding-texto-rombo {
   padding-top: 20px;
+  @media all and (min-width: 1000px) {
+    padding-top: -150px;
+    margin-top: 0px;
+  }
 }
 
 .main-padding-texto-top {
   padding-top: 40px;
-  font-family: "Rubik";
+  text-align: center;
 }
 
 .main-padding-texto-bottom {
   padding-bottom: 40px;
-}
-
-.main-padding-texto-5-px {
-  padding-top: 5px;
-}
-
-.main-h2-quienes-somos {
-  color: #099d8d;
-  font-size: 24px;
-  font-weight: 500px;
-}
-
-.avatar-lorena {
-  width: 150px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.main-redes-sociales {
-  color: #099d8d;
-}
-
-.avatar-aran {
-  width: 150px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.avatar-paula {
-  width: 150px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.avatar-celia {
-  width: 150px;
-  padding-top: 30px;
-  padding-bottom: 20px;
 }

@@ -1,0 +1,44 @@
+.main-h2-quienes-somos {
+  color: #099d8d;
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+.main-h3 {
+  font-size: 20px;
+}
+
+.main-texto-2 {
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px;
+  @media all and (min-width: 1000px) {
+    width: 439px;
+  }
+}
+
+.main__article--descripcion {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.text__bold {
+  font-weight: bolder;
+}
+
+.avatar {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.main-redes-sociales {
+  color: #099d8d;
+  padding-top: 5px;
+}
