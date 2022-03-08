@@ -4,10 +4,12 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  text-transform: uppercase;
+  line-height: 30px;
 }
 .header-title {
   background-color: #099d8d;
-  font-family: var(--font-family1);
+  font-family: "Rubik";
   color: #fff;
   font-size: 16px;
   height: 60px;
@@ -19,7 +21,7 @@
 }
 .header-menu {
   background-color: #14d9c4;
-  font-family: var(--font-family1);
+  font-family: "Rubik";
   color: #fff;
   font-size: 15px;
   height: 45px;
@@ -31,7 +33,6 @@
 }
 
 .header-link {
-  list-style: none;
   display: block;
   text-decoration: none;
   padding: 0.5em 1em;
@@ -40,7 +41,6 @@
 .header-ul {
   display: flex;
   justify-content: space-around;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
