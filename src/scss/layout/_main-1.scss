@@ -12,11 +12,15 @@
   @media all and (min-width: 768px) {
     width: 441px;
     height: 50px;
-    position: relative;
     bottom: 84px;
     margin: 0 30px 0 30px;
     padding: 15px 30px;
     opacity: 0.8;
+  }
+  @media all and (min-width: 1200px) {
+    width: 541px;
+    height: 60px;
+    bottom: 94px;
   }
 }
 
@@ -41,6 +45,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 30px;
   }
 }
 
