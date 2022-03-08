@@ -53,6 +53,10 @@
   margin: 60px 15px;
 }
 
+.mail-phone {
+  border: 0px;
+}
+
 .information {
   color: #54585a;
   font-size: 14px;
@@ -68,6 +72,7 @@
   outline: none;
   background-color: transparent;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .number:focus {
@@ -98,6 +103,10 @@
 /* RESPONSIVE */
 
 @media all and (min-width: 768px) {
+  .form {
+    padding: 0 163px;
+  }
+
   .description {
     width: 442px;
     padding: 0 163px 0 163px;
@@ -107,6 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    margin-right: -15px;
   }
 }
 
@@ -114,18 +124,14 @@
   .description {
     width: 601px;
     padding: 0 300px 0 299px;
+    margin: 30px 0 30px 0;
   }
   .contact {
-    margin: 0 300px 0 299px;
     border: none;
   }
 
   button {
     width: 278px;
     margin: 0 300px 120px 622px;
-  }
-
-  .mail-tel {
-    display: flex;
   }
 }
