@@ -9,6 +9,15 @@
   height: 50px;
   margin: 0 30px 0 30px;
   padding: 8px;
+  @media all and (min-width: 768px) {
+    width: 441px;
+    height: 80px;
+    position: relative;
+    bottom: 114px;
+    margin: 0 30px 0 30px;
+    padding: 15px 30px;
+    opacity: 0.8;
+  }
 }
 
 .main-contenedor-equipo {
@@ -34,7 +43,7 @@
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
-  background-color: #ffffff;
+  background-color: #f3f4f5;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -15px;
