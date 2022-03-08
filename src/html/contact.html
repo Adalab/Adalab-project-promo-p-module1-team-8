@@ -29,6 +29,79 @@
 
     <body>
       <include src="./partials/header.html"></include>
+      <main class="main">
+        <img
+          src="./assets/images/grupo.jpg"
+          alt="mujeres al atardecer"
+          class="main-foto-equipo"
+        />
+        <h1 class="title">Contacto</h1>
+        <section class="contact">
+          <div class="description">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+              nam deleniti reprehenderit voluptatum fugiat magnam maxime ut, minus
+              repellendus animi accusantium nostrum fugit inventore? Sed aut nemo
+              temporibus accusamus quisquam!
+            </p>
+          </div>
+          <small class="reminder">
+            Todos los campos marcados con <span class="asterisk">*</span> son
+            obligatorios.</small
+          >
+        </section>
+        <form class="form" action="/signup" method="get">
+          <label class="information" for="fullname"
+            >Nombre completo <span class="asterisk">*</span></label
+          >
+  
+          <input
+            class="number"
+            id="fullname"
+            type="text"
+            name="fullname"
+            placeholder="Nombre..."
+            required
+          />
+          <div class="mail-tel">
+            <label class="information" for="email"
+              >Email <span class="asterisk">*</span></label
+            >
+            <input
+              class="number"
+              id="email"
+              type="Email"
+              name="email"
+              placeholder="nombre.apellidos@mail.com"
+              required
+            />
+  
+            <label class="information" for="telephone">Teléfono</label>
+            <input
+              class="number"
+              id="telephone"
+              type="tel"
+              name="telephone"
+              placeholder="Ej:123456789"
+            />
+          </div>
+          <label class="information" for="comments"
+            >Mensaje <span class="asterisk">*</span></label
+          >
+  
+          <textarea
+            class="number"
+            id="comments"
+            name="comments"
+            rows="6"
+            placeholder="¿Qué necesitas?"
+            required
+          ></textarea>
+          <div class="container-button">
+            <input class="button" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </main>
 
       <include src="./partials/footer.html"></include>
     </body>
