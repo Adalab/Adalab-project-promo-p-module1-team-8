@@ -19,13 +19,26 @@
   }
 }
 
-.main__article--descripciogn {
+.main__article--descripcion {
   display: flex;
 
   flex-direction: column;
   align-items: center;
 
   justify-content: center;
+}
+
+.persona-1 {
+  @media all and (min-width: 768px) {
+  }
+}
+
+.main__article--descripcion:nth-child(2n) {
+  background-color: red;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .text__bold {
