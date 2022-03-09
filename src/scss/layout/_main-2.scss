@@ -55,6 +55,14 @@
   }
 }
 
+.main__article--descripcion {
+  background-color: blue;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 .text__bold {
   font-weight: bolder;
 }
