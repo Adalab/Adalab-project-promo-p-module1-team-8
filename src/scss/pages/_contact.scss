@@ -109,7 +109,8 @@
 
   .description {
     width: 442px;
-    padding: 0 163px 0 163px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 
   .container-button {
@@ -121,17 +122,36 @@
 }
 
 @media all and (min-width: 1200px) {
+  .photo {
+    width: 100%;
+    height: 340px;
+  }
   .description {
     width: 601px;
-    padding: 0 300px 0 299px;
-    margin: 30px 0 30px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   .contact {
     border: none;
   }
 
-  button {
+  .button {
     width: 278px;
-    margin: 0 300px 120px 622px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -63px;
+  }
+
+  .mail-phone {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mail {
+    width: 60%;
+  }
+
+  .telephone {
+    width: 30%;
   }
 }
