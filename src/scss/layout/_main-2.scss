@@ -33,6 +33,20 @@
   }
 }
 
+.persona-2 {
+  @media all and (min-width: 768px) {
+  }
+}
+
+.persona-3 {
+  @media all and (min-width: 768px) {
+  }
+}
+.persona-4 {
+  @media all and (min-width: 768px) {
+  }
+}
+
 .main__article--descripcion:nth-child(2n) {
   background-color: red;
   @media all and (min-width: 768px) {
@@ -46,9 +60,18 @@
 }
 
 .avatar {
-  width: 150px;
+  width: 180px;
+  height: 180px;
   padding-top: 30px;
   padding-bottom: 20px;
+  @media all and (min-width: 768px) {
+    width: 205px;
+    height: 205px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+    height: 278px;
+  }
 }
 
 .main-redes-sociales {
