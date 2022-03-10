@@ -8,7 +8,7 @@
 }
 
 .team {
-  margin: 30px 15px 45px 20px;
+  margin: 40px 21px;
   color: #b8b8b9;
 }
 
@@ -17,11 +17,18 @@
   margin: -24px 20px 20px 12px;
   color: #54585a;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.links {
+  text-decoration: none;
+  color: #54585a;
 }
 
 .logo {
   width: 115.9px;
   height: 45px;
+  padding: 30px 10px 45px 10px;
 }
 
 /* Responsive Footer */
@@ -46,17 +53,35 @@
     height: 20px;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 30px 0 15px 11px;
+    margin: 30px 5px 1px 7px;
   }
 
   .list {
-    padding: 24px 45px 56px;
-    margin: 0;
+    margin: 24px 45px 56px 10px;
   }
 
   .logo {
     width: 115.9px;
     height: 45px;
-    margin: -36px 40px;
+    margin-left: 72px;
+    margin-top: 83px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container-top {
+    margin-top: 30px;
+    margin-bottom: -54px;
+  }
+  .team {
+    padding: 40px 10px 45px 138px;
+  }
+  .logo {
+    margin-left: 205px;
+  }
+
+  .list {
+    padding: 24px 15px 63px 413px;
+    margin: auto;
   }
 }

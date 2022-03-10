@@ -1,5 +1,6 @@
 .main-foto-equipo {
   width: 100%;
+  height: 20%;
 }
 
 .main-box {
@@ -25,12 +26,23 @@
 }
 
 .main-contenedor-equipo {
-  @media all and (min-width: 1000px) {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  @media all and (min-width: 768px) {
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media all and (min-width: 1200px) {
     margin-left: 300px;
     margin-right: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
   }
 }
 
@@ -41,6 +53,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: 700;
+
   @media all and (min-width: 768px) {
     display: flex;
     justify-content: flex-start;
@@ -49,6 +62,7 @@
   @media all and (min-width: 1200px) {
     font-size: 24px;
     line-height: 30px;
+    font-weight: 600;
   }
 }
 
@@ -65,11 +79,21 @@
 .main-padding {
   padding: 20px;
   text-align: center;
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-around;
+    padding-top: 30px;
   }
 }
 
@@ -84,13 +108,43 @@
   font-family: "Rubik";
   text-align: center;
   padding-top: 20px;
+  @media all and (min-width: 768px) {
+    color: #099d8d;
+  }
+  @media all and (min-width: 1200px) {
+    color: #099d8d;
+  }
 }
 
-.h2-fortalezas-debilidades {
+.h2-fortalezas {
   color: #099d8d;
   font-size: 22px;
   font-family: "Rubik";
   font-weight: 500;
+}
+
+.h2-debilidades {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: "Rubik";
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.main-texto-equipo {
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 15px;
+  @media all and (min-width: 768px) {
+    width: 678px;
+    padding-bottom: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    padding-bottom: 30px;
+  }
 }
 
 .main-texto {
@@ -99,14 +153,17 @@
   line-height: 24px;
   text-align: center;
   padding: 20px;
-  @media all and (min-width: 1000px) {
-    width: 439px;
+  @media all and (min-width: 768px) {
+    width: 601px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 678px;
   }
 }
 
 .main-padding-texto-rombo {
   padding-top: 20px;
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1200px) {
     padding-top: -150px;
     margin-top: 0px;
   }
