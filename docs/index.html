@@ -2,67 +2,200 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/3d236d467e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Proyecto 1 web grupal</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="header" id="header">
+      <div class="header__container-general">
+        <h1 class="header__teamname">equipo galgo</h1>
+        <nav>
+          <ul class="header__menu">
+            <li class="header__menu--link">equipo</li>
+            <li class="header__menu--link">quiénes somos</li>
+            <li class="header__menu--link">
+              <a href="./contact.html" target="_blank" class="header__link--contact"
+                >contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+    <main class="main">
+     
+          <div>
+            <img src="./assets/images/grupo.jpg" alt="mujeres al atardecer" class="main-foto-equipo">
+          <div class="main-box">
+            <p class="main-frase-equipo"><strong>Nothing is impossible,<br>the word itself says "I´m possible". 
+            </strong></p>
+          </div>
 
-          </li>
-        </ul>
-      </main>
+          <article class="main-contenedor-equipo">
+            <h2 class="h2-equipo" >EQUIPO</h2>
+            <div class="main-texto">
+            <p class="main-tesxt-padding-top">
+              Nuestra primera decisión juntas como grupo fué nuestro nombre: Galgo. Los galgos son animales fieles, constantes, cariñosos y, ante todo, luchadores. Ese fué nuestro punto en común. Todas en el grupo hemos tomado la valiente decisión de cambiar nuestras vidas. De enfrentarnos a retos difíciles, día a día, durante los próximos tres meses.
+            </p>
+            </div>
+            </article>
+          </article>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+         <div class="main-cuadrado-pico"></div>
 
-        </small>
-      </footer>
+    <aside class="main-aside-background-fortalezas-debilidades"> 
+          <div class="main-padding">
+            <article>
+              <h2 class="h2-fortalezas main-padding-texto-rombo" >Fortalezas</h2>
+              <div class="main-texto" >
+                <p >
+                  Sin duda, nuestro punto fuerte es la empatía. En un marco de exigencia ante un proyecto grande, no habido un solo día como equipo que no nos hayamos apoyado y escuchado las unas a las otras. Todas sabemos la importancia de dividir tareas ante un proyecto grande pero, casi de manera natural, ninguna de nosotras ha estado sola en ningún momento. 
+                  
+                </p>
+                <p >
+                  Por otro lado, somos perseverantes. No nos rendimos en ningún momento. Sabemos que podemos sacar el proyecto hacia adelante y que cada encrucijada no es sino una oportunidad nueva de aprender. Proactivamente buscamos soluciones y averiguamos cómo salir de los laberintos. Todas sabemos que la constancia, con paciencia y calma, lleva al triunfo. 
+                </p>
+              </div>
+            </article>
+            <article>
+              <h2 class="h2-debilidades">Debilidades</h2>
+                  <div class="main-texto" >
+                    <p>
+                      Prácticamente acabamos de adentrarnos en el increíble mundo de la programación. Aún estamos decidiendo quiénes seremos dentro de ese mundo, ya sea individualmente o juntas como equipo. 
+                    </p>
+                    <p class="main-padding-texto-bottom">
+                      En algunos momentos tenemos la impaciencia de un estudiante que lo quiere saber todo al instante. Es posible que en algunos momentos confundamos la excelencia con perfeccionismo. Al fin y al cabo, queremos dar lo mejor de cada una de nosotras. Sin duda podríamos enumerar muchas debilidades más. Sin embargo sabemos que no importan nuestras debilidades como equipo, lo que importa es ser consciente de ellas. Importa acompañarnos las unas a las otras cuando las debilidades afloren. Y recordar, siempre, que la perfección nunca es más importante que la humildad.
+                    </p>
+              </div>
+            </article>
+          </div>
+          </aside>
+          
+        </main>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+     <section class=" main-padding-texto-top">
+            <h2 class="main-h2-quienes-somos" >QUIENES SOMOS</h2>
+            <article class="main__article--descripcion">
+              <img
+                src="./assets/images/lorena.jpg"
+                alt="avatar chica"
+                class="avatar"
+              />
+              <h3 class="main-h3">Lorena</h3>
+    <div class="main-texto">
+             
+                <p class="main-texto main-padding-texto-10-px">Historiadora en busca de nuevos descubrimientos. Me apasiona la forma de vida de muchos de nuestros antepasados pero también la presente y futura que está creando la tecnología. Por ello, guiada por la organización y el desarrollo metódico que me han dado mis experiencias laborales, trabajo cada día buscando el código más exigente para dejar huella a los que un día hablarán de nosotras.</p>
+                <p class="main-padding-texto-5-px">
+                <p class="text__bold">Alguna curiosidad sobre ti: </p><p>En mi tiempo libre viajo representado el folkore de mi tierra.</p>
+                
+              <nav> <div class="main-redes-sociales main-padding-texto-5-px">
+                <a href="https://twitter.com/?lang=es"> <i class="fa-brands fa-twitter"></i></a> ·  
+                <a href="https://es.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a> · 
+                <a href="https://github.com/LorenaGomezPerez"> <i class="fa-brands fa-github-alt"></i></a> · 
+                <a href="https://www.google.com/intl/es/gmail/about/"> <i class="fa-solid fa-envelope"></i> </a>
+              </div> </nav>
+              
+              </nav>
+            </article>
+            <article class="main__article--descripcion">
+              <img
+                src="./assets/images/aran.jpg"
+                alt="avatar chica"
+                class="avatar"
+              />
+              <h3 class="main-h3">Aran</h3>
+    <div class="main-texto">
+              <p>
+                Vivo en Madrid. Siempre he trabajado en el ámbito de la creatividad. Estudié fotografía analógica con especialidad en técnicas del S. XIX. Posteriormente realicé un Master de fotoperiodismo en la University of the Arts of London. Estuve varios años colaborando con ONGs y publicando en distintos medios. Los últimos años he creado mi propia empresa de encuadernación artesanal sostenible.</p>
+                <p class="text__bold">Alguna curiosidad sobre ti:</p> <p>Puedo decir los diálogos enteros de Regreso al futuro.</p>
+
+              </div>
+              <nav> <div class="main-redes-sociales main-padding-texto-5-px">
+                <a href="https://twitter.com/?lang=es"> <i class="fa-brands fa-twitter"></i></a> · 
+                <a href="https://es.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a> · 
+                <a href="https://github.com/AranDiez"> <i class="fa-brands fa-github-alt"></i></a> · 
+                <a href="https://www.google.com/intl/es/gmail/about/"> <i class="fa-solid fa-envelope"></i></a>
+              </div></nav>
+            </article>
+            <article class="main__article--descripcion">
+              <img
+                src="./assets/images/paula.jpg"
+                alt="avatar chica"
+                class="avatar"
+              />
+              <h3 class="main-h3">Paula</h3>
+    <div class="main-texto">
+              <p>
+                Soy una zaragozana afincada en Valencia desde hace seis meses. A mis 31 años, me ha dado tiempo a estudiar Trabajo Social, Diseño de Interiores y, acutualmente, este Bootcamp. Poco o nada tienen que ver entre ellas aparentemente, pero me quedo con todo aquello que he ido aprendiendo y que me ha hecho crecer como persona, y poder ser quien soy hoy. 
+                Mi pasión siempre ha sido el diseño de interiores, aunque ahora reconozco está fifty-fifty con el diseño web. Algo que no descarto a corto-medio plazo...aunar estos dos mundos en algo genial!</p>
+               <p> <p class="text__bold">Alguna curiosidad sobre ti:</p> <p> Despues de toda una vida queriendo perrete, 31 años después, ha llegado Tas. </p><p></p>MORALEJA: Si eres paciente, TODO llega. 
+              </p>
+              </div>
+              <nav> <div class="main-redes-sociales main-padding-texto-5-px">
+                <a href="https://twitter.com/?lang=es"> <i class="fa-brands fa-twitter"></i></a> · 
+                <a href="https://es.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a> · 
+                <a href="https://github.com/pgomezariza"> <i class="fa-brands fa-github-alt"></i></a> · 
+                <a href="https://www.google.com/intl/es/gmail/about/"> <i class="fa-solid fa-envelope"></i></a>
+              </div></nav>
+            </article>
+            <article class="main__article--descripcion">
+              <img
+                src="./assets/images/celia.jpg"
+                alt="avatar chica"
+                class="avatar"
+              />
+              <h3 class="main-h3">Celia</h3>
+    <div class="main-texto-2">
+              <p>
+                Soy mitad de Pontevedra mitad de Madrid, tengo 27 años y me paso la vida preguntado por qué. Estudié diseño y me especialicé en UX Design con un bootcamp intensivo. Como soy un poco yonki del aprendizaje (y masoca) decidí complementar mi parte técnica con este segundo bootcamp mientras estoy acabando la carrera de psicología. Mi objetivo a largo plazo es especializarme en Women Centered Design y mi sueño es hacerlo desde una playita de Bali y pasarme 3 años sin ponerme los zapatos.</p>
+                <p><p class="text__bold">Alguna curiosidad sobre ti:</p> <p>Tengo 5 gatos que no sé cómo llevarme a Bali. </p>
+              </p>
+              </div>
+              <nav> <div class="main-redes-sociales main-padding-texto-5-px main-padding-texto-bottom ">
+                <a href="https://twitter.com/?lang=es"> <i class="fa-brands fa-twitter"></i></a> · 
+                <a href="https://es.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a> · 
+                <a href="https://github.com/CeRosales"> <i class="fa-brands fa-github-alt"></i></a> · 
+                <a href="https://www.google.com/intl/es/gmail/about/"> <i class="fa-solid fa-envelope"></i></a>
+              </div></nav>
+            </article>
+          </section>
+
+    <footer class="container-footer">
+      <div class="container-top">
+        <p class="team">Galgo © 2022</p>
+        <nav>
+          <ul class="list">
+            <li><a class="links" href="./index.html">Equipo</a></li>
+            <li><a class="links" href="./index.html">Quiénes somos</a></li>
+            <li><a class="links" href="./contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img class="logo" src="./assets/images/logo-adalab.png" alt="logo Adalad" />
+    </footer>
+
   </body>
 </html>
