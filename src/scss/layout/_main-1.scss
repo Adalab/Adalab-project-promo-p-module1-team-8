@@ -1,9 +1,8 @@
 .wrapper {
 }
-
 .main-foto-equipo {
-  width: 100%;
-  height: 20%;
+  object-fit: cover;
+  height: 421px;
 }
 
 .main-box {
@@ -48,7 +47,9 @@
     margin-top: 0;
   }
 }
-
+.main-tesxt-padding-top {
+  opacity: 0.67;
+}
 .main-frase-equipo {
   display: flex;
   justify-content: center;
@@ -109,7 +110,7 @@
 }
 
 .main-aside-background-fortalezas-debilidades {
-  background-color: #b8b8b9;
+  background-color: #efefef;
 }
 
 .h2-equipo {
